@@ -1,0 +1,30 @@
+.mat-card.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.mat-card.table-container {
+  margin-top: 20px;
+}
+
+.form-title {
+  text-align: center;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.mat-form-field {
+  margin-bottom: 20px;
+}
+
+.mat-table {
+  width: 100%;
+}
+
+.mat-cell, .mat-header-cell {
+  text-align: center;
+}

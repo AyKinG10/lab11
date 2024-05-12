@@ -1,0 +1,7 @@
+<div *ngIf="weatherData$ | async as weatherData">
+  <h2>Weather in {{ weatherData.cityName }}</h2>
+  <p>Description: {{ weatherData.description }}</p>
+  <p>Temperature: {{ weatherData.temperature }}°C</p>
+  <p>Min Temperature: {{ weatherData.minTemp }}°C</p>
+  <p>Max Temperature: {{ weatherData.maxTemp }}°C</p>
+</div>
